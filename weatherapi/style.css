@@ -1,0 +1,71 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background:url("https://t4.ftcdn.net/jpg/05/85/93/67/240_F_585936717_oLX8DXDMV0d0PhxKCrm5cZBewERt327P.jpg" );
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+body h1{
+    color: white;
+    text-align: center;
+}
+.container{
+    background: linear-gradient(-70deg, #fa7c30 30%, rgba(115, 147, 179, 5) 50%);
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:20px;
+    border-radius: 20px;  
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.search_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.search_bar{
+    padding:5px;
+    width: 200px;
+    height:28px;
+    border: 0;
+    outline: 0;
+    border-radius: 90px;
+}
+.search_btn{
+    padding:5px;
+    border: 0;
+    outline: 0;
+    height:30px;
+    width: 28px;
+    border-radius: 90px;
+}
+.weather_icon{
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.weather_icon img{
+    height: 166px;
+    margin-top: 12px;
+}
+.weather_icon h1{
+    color:black;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.detail{
+    display: flex;
+    gap:10px;
+    justify-content: space-between;
+    margin: 25px 0px 10px 10px;
+}
+.section{
+    display: none;
+}
